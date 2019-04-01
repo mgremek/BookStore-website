@@ -1,19 +1,21 @@
-#container
-{
-  width:1000px;
-  background-color: #f1f1f1;
-}
+
 body 
 { 
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
 }
-  
+.container
+{
+  width: 1000px;
+  background-color: #f1f1f1;
+  margin-left: auto;
+  margin-right: auto;
+} 
 .header
 {
     overflow: hidden;   
-    padding: 10px 500px;
+
 }
   
 .header a.logo 
@@ -22,7 +24,8 @@ body
     font-weight: bold;
     padding: 0px;
  }
-.header a{
+.header a
+{
     float: left;
     color: black;
     text-align: center;
@@ -47,11 +50,17 @@ body
     color: white;
   }
   
-  
+  .navbar
+  {
+    height: 50px;
+    background-color: #333333;
+    margin: 0px;
+    border-radius: 4px;
+  }
   .navbar ul {
     list-style-type: none;
     margin: 0;
-    padding: 0 500px;
+    padding: 0 50px;
     overflow: hidden;
     background-color: #333333;
   }
@@ -82,14 +91,22 @@ input
 {
     margin-top: 10px;
     margin-right: 0px;
-    margin-left: 200px;
     float: right;
+}
+#content
+{  
+    float: left;
+    padding-left: 10px;
+    width: 1000px;
+    min-height: 620px;
+    margin: 0;
+    background-color: rgb(255, 255, 255);
 }
 .bestsellers 
 {
     list-style-type: none;
     margin: 0;
-    padding: 0 500px;
+    padding: 10px;
     overflow: hidden;
     background-color: #ffffff;
 }
@@ -109,7 +126,8 @@ input
 .bestsellers  img
 {
     height: 250px;
-    margin: 10px;   
+    margin: 10px;  
+    float:left; 
 }
 
 .bestsellers li a:hover 
@@ -120,7 +138,7 @@ input
 {
     list-style-type: none;
     margin: 0;
-    padding: 0 270px;
+    padding: 10px;
     overflow: hidden;
     background-color: #ffffff;
 }
