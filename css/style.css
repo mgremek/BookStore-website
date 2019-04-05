@@ -93,6 +93,10 @@ input
     margin-right: 0px;
     float: right;
 }
+#koszyk
+{
+    float: right;
+}
 #content
 {  
     float: left;
